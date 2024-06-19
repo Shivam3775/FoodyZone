@@ -33,7 +33,7 @@ export default SearchResult
 
 const FoodCardContainer=styled.section`
 min-height: calc(100vh - 200px);
- background-image: url("/bgb.webp");
+ background-image: url("./bgb.webp");
  background-size: cover;
 `;
 const FoodCards=styled.div`
