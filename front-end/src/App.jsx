@@ -3,8 +3,8 @@ import './App.css'
 import { useEffect, useState } from "react"
 import SearchResult from "./components/SearchResult";
 
-export const Base_URL="http://localhost:9000";
-//export const Base_URL=`{window.location.origin}`;
+//export const Base_URL="http://localhost:9000";
+export const Base_URL="https://foodyzone-qsa1.onrender.com";
 
 function App() {
   const [data,setData]= useState(null);
